@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/background_b.jpg);
+    background-position: left;
+    animation: mymove 15s infinite;
+}
+@keyframes mymove {
+    50% {background-position: right;}
+}
+#navbarNavDropdown{
+    padding-left: 15%;
+}
+.nav-item{
+    padding: 0% 1% 0% 1%;
+    width: 100px;
+}
+.dropdown{
+    width: 160px;
+}
+.navbar-brand{
+    padding-left: 2%;
+    size: large;
+    width: 150px;
+}
+#GS{
+    background-color: rgb(44, 75, 214);
+    border-radius: 10px;
+    width: 130px;
+}
+.card{
+    border: none;
+    background-image: url(./images/background_b.jpg);
+    background-position: left;
+    animation: mymove 15s infinite;
+}
+.card-body{
+    margin-top: 5%; 
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.card-title{
+    width: 30%;
+    /* margin-left: 30%; */
+    color: rgb(31, 44, 104);
+    font-weight: bold;
+    width: 100%;
+    font-size: 50px;
+    align-self: center;
+}
+.col{
+    margin: 3%;
+    padding: 4% 2% 4% 2%;
+    width: 300px;
+    background-color: lightgray;
+    border-radius: 5%;
+    box-shadow: 0.5px 0.5px 2px 2px rgb(31, 44, 104);
+}
+.container{
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub-head{
+    color: rgb(31, 44, 104);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5% 0% 5% 0%;
+}
+.sub-body{
+    padding: 2% 0% 2% 0%;
+    font-size: 15px;
+}
+.navbar{
+    background-color: lightgray !important;
+}
+.row{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+}
